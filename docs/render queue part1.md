@@ -40,7 +40,7 @@ A cpu capped scenario will always have a value between 0 and 1.(bc gpu finishes 
 
 With a massive gpu cap(in my case I got my gpu to render 10 times slower than cpu) the render queue gets filled to the max.
 
-![alt text](https://github.com/VoeSo/Twix/blob/main/pics/rqd2.png)
+![alt text](https://github.com/VoeSo/Twix/blob/main/pics/rqd2fr.png)
 
 Not manipulating the queue(not using any of the tools mentioned above), the maximum number of prerendered frames is ~2!
 
@@ -54,7 +54,7 @@ Setting all to lowest/1 also has no effect, -depending how slow the gpu renders 
 
 Reflex low latency delays CPU frame generation so that it finishes right when gpu finishes the previous frame, keeping the queue very close to 1.
 
-![alt text](https://github.com/VoeSo/Twix/blob/main/pics/rqd1exact.png)
+![alt text](https://github.com/VoeSo/Twix/blob/main/pics/rqd1exactfr.png)
 
 
 Low latency mode set to Ultra acts similar to reflex, keeping queue at 1.
