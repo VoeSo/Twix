@@ -16,9 +16,9 @@ Frame limiter(ingame/nvcpl/inspector etc)
 ## Test method:
 1) Create gpu bottleneck
 
-   Force slowest P-state by setting PowerMizerEnable 1 and PowerMizerLevelAC 3 in registry
+   -Force slowest P-state by setting PowerMizerEnable 1 and PowerMizerLevelAC 3 in registry
     
-   Use highest graphics settings in-game
+   -Use highest graphics settings in-game
 2) Compare benchmarks with nvidia frameview
 
 
