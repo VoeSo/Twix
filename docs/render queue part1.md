@@ -52,7 +52,7 @@ Setting them to the maximum still doesn't allow a render queue depth of more tha
 Setting all to lowest/1 also has no effect, -depending how slow the gpu renders the queue gets filled with up to 2 frames.
 
 
-Reflex low latency delays CPU frame generation so that it finishes right when gpu finishes the previous frame, keeping the queue very close to 1.
+Reflex low latency delays CPU frame generation so that it finishes right when gpu finishes the previous frame, keeping the queue close to 1.
 
 ![alt text](https://github.com/VoeSo/Twix/blob/main/pics/rqd1exactfr.png)
 
