@@ -64,11 +64,7 @@ Low latency mode set to On, has no effect, -queue can get filled up to 2.
 (Low lateny mode set to Off has no effect)
 
 
-
-
 Framelimiter, as long as the limit is actually hit, keeps queue close to 1.
-
-
 
 
 To sum up, if you want to keep your render queue low in gpu capped scenarios, use either reflex, llm ultra or a framecap.
