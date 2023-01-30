@@ -14,7 +14,7 @@ Virtual Reality pre-rendered frames(nvcpl)
 Frame limiter(ingame/nvcpl/inspector etc)
 
 ## Test method:
-1) Create gpu bottleneck
+1) Create gpu bottleneck:
 
    -Force slowest P-state by setting PowerMizerEnable 1 and PowerMizerLevelAC 3 in registry
     
