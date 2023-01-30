@@ -18,7 +18,7 @@ Frame limiter(ingame/nvcpl/inspector etc)
 
     -Force slowest P-state by setting PowerMizerEnable 1 and PowerMizerLevelAC 3 in registry
     
-    -Use highest graphic settings in-game
+    -Use highest graphics settings in-game
 2) Compare benchmarks with nvidia frameview
 
 
