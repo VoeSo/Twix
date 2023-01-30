@@ -2,7 +2,6 @@
 
 ## Nvidia settings to test:
 Maximum pre-rendered frames(only accessible with profile inspector)
-
 Reflex low latency(ingame setting)
 
 Low latency mode(nvcpl)
