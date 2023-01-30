@@ -2,6 +2,7 @@
 
 ## Nvidia settings to test:
 Maximum pre-rendered frames(only accessible with profile inspector)
+
 Reflex low latency(ingame setting)
 
 Low latency mode(nvcpl)
@@ -53,7 +54,7 @@ Setting all to lowest/1 also has no effect, -depending how slow the gpu renders 
 
 Reflex low latency delays CPU frame generation so that it finishes right when gpu finishes the previous frame, keeping the queue very close to 1.
 
-![alt text](https://github.com/VoeSo/Twix/blob/main/pics/rqd1exact.png[I'm an inline-style link](https://github.com/VoeSo/Twix/blob/main/docs/reflex%20llm%20bug))
+![alt text](https://github.com/VoeSo/Twix/blob/main/pics/rqd1exact.png)
 
 
 Low latency mode set to Ultra acts similar to reflex, keeping queue at 1.
