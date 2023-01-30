@@ -32,7 +32,7 @@ Kovaak fpsaimtrainer
 
 ## Findings:
 
-You can see effects of various settings by eyeing "Render queue depth" in the frameview csv files.
+You can see the effects by eyeing "Render queue depth" in the frameview csv files.
 
 A cpu capped scenario will always have a value between 0 and 1.(bc gpu finishes rendering the previous frame before the cpu can finish work on the current frame)
 
@@ -45,7 +45,7 @@ With a massive gpu cap(in my case I got my gpu to render 10 times slower than cp
 Not manipulating the queue(not using any of the tools mentioned above), the maximum number of prerendered frames is ~2!
 
 
-Setting "Maximum pre-rendered frames", "Maximum frames allowed", "Virtual Reality pre-rendered frames" has no effect on render queue.
+Setting "Maximum pre-rendered frames", "Maximum frames allowed" or "Virtual Reality pre-rendered frames" has no effect on render queue.
 
 Setting them to the maximum still doesn't allow a render queue depth of more than ~2.
 
@@ -65,7 +65,9 @@ Low latency mode set to On, has no effect, -queue can get filled up to 2.
 
 
 
+
 Framelimiter, as long as the limit is actually hit, keeps queue close to 1.
+
 
 
 
