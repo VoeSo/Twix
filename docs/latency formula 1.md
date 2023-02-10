@@ -31,7 +31,7 @@ ROUNDUP(result,0)....Roundup the result of () to zero decimals
 ROUNDDOWN(result,0)....Rounddown the result of () to zero decimals
 
 
-Excel formular to use on FrameView csv:
+Excel formula to use on FrameView csv:
 
 =((($M$2+((ROUNDUP((M3+(R3/1000)-$M$2)/(1/$DI$2),0))*(1/$DI$2)))-(M3+(R3/1000)))+((N3/1000)+(R3/1000)-(P2/1000))+((M2+(P2/1000))-(((ROUNDDOWN((M2+(P2/1000)-$M$2)/(1/$DJ$2),0))*(1/$DJ$2))+$M$2)))*1000
 
