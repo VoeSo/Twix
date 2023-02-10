@@ -2,6 +2,12 @@ A latency simulation formula, based on refresh rate, polling rate and PresentMon
 
 Simulates latency from USB interrupt to Monitor refresh. Excludes the latency from Windows processing the mouse data(varies between systems), excludes monitor latency(pixel response time etc.) and mouse latency(click to interrupt). 
 
+Works for dx11(and bellow, probably) but not for dx12.
+
+Doesn't work with most frame limiters.
+
+Doesn't work in severly GPU capped scenarios.
+
 
 Formula:
 
@@ -37,3 +43,5 @@ Instructions:
 2) Chose any cell in Row number 3(an empty cell is recommended) and copy paste the formula above into the cell
 
 3) Use autofill to drag the formula to the bottom of your benchmark
+
+4) You now have latency per frame, in milliseconds
