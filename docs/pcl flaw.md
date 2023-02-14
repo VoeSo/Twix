@@ -1,6 +1,6 @@
 I think PCL is inherintely flawed and it seems that it's just assuming a gpu capped scenario with filled render queue by default.
 
-![alt text]([https://i.imgur.com/8tSkrr8.png](https://github.com/VoeSo/Twix/blob/main/pics/pcl_bug.png))
+![alt text](https://github.com/VoeSo/Twix/blob/main/pics/pcl_bug.png)
 
 frametimes are stable around 4ms whatever and pcl is stable as well
 
